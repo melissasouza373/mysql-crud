@@ -53,7 +53,7 @@ app.get('/users', async(req, res) =>{
             message: "Usuário deletado com sucesso!"
         });
 
-    
+    //
     });
 
     app.put("/users/:id", async (req, res) => {
